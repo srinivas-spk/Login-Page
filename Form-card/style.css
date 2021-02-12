@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/lawn_forest_mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#box {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px 0 #0a043c;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+    text-transform: uppercase;
+    color: #03506f;
+}
+
+form input {
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    margin-left: 37%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    outline: none;
+    background-color: #03506f;
+    color: white;
+    box-shadow: 4px 4px 2px 0 #0a043c;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #03506f;
+    width: 200px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+    width: 250px;
+    border: 2px solid #a3d2ca;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #a3d2ca;
+    box-shadow: 4px 4px 2px 0 gray;
+    color: black;
+}
